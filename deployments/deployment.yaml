@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: crowdcontract-frontend
-        image: rohitraman/crowdcontract-frontend:latest
+        image: gouthamsheregar/crowdcontract-frontend:latest
         env:
         - name: DOCKER_DEFAULT_PLATFORM
           value: "linux/amd64"

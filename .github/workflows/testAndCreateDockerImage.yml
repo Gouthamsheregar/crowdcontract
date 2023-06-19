@@ -21,7 +21,7 @@ jobs:
         run: |
           cd client
           echo "VITE_AES_SECRET_KEY='${{secrets.AES_SECRET_KEY}}'
-                VITE_API_URL=http://${{secrets.AWS_IP}}:5051" > .env
+                VITE_API_URL=http://localhost:5051" > .env
           cat .env
           npm install
           npm run build
